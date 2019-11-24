@@ -1,0 +1,28 @@
+
+# Created by https://www.gitignore.io/api/clojure,exercism
+# Edit at https://www.gitignore.io/?templates=clojure,exercism
+
+### Clojure ###
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/lib/
+/classes/
+/target/
+/checkouts/
+.lein-deps-sum
+.lein-repl-history
+.lein-plugins/
+.lein-failures
+.nrepl-port
+.cpcache/
+
+### Exercism ###
+# gitignore template for Exercism project
+# website: https://exercism.io/
+
+# Ignore .exercism folder which contain sensitive data
+.exercism
+
+# End of https://www.gitignore.io/api/clojure,exercism
